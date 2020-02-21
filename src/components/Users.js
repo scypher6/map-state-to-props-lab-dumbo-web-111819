@@ -9,6 +9,8 @@ class Users extends Component {
 console.log(this.props.users)
     let userMapper = this.props.users.map( (user, i) => {
       return (<li>{user.username}</li>)
+
+      
 })
     return (
       <div>
